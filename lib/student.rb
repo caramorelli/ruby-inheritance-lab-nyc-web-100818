@@ -1,5 +1,5 @@
 
-require_relative ' user'
+require_relative 'user'
 
 class Student < User
   
