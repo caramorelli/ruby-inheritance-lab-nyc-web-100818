@@ -6,7 +6,7 @@ class Student < User
   # attr_accessor :first_name, :last_name
   
   def initialize
-    @knowledge_array = []
+    @knowledge = []
   end 
   
   def first_name=(first_name)
