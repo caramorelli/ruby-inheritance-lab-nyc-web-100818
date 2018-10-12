@@ -5,8 +5,8 @@ class Student < User
   
   # attr_accessor :first_name, :last_name
   
-  def initialize(knowledge_array=[])
-    # @knowledge_array = knowledge_array
+  def initialize
+    @knowledge_array = []
   end 
   
   def first_name=(first_name)
