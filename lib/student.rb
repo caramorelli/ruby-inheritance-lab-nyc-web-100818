@@ -2,10 +2,7 @@
 
 class Student 
   
-  def initialize(name)
-    @name = name
-  end 
-  
+  attr_accessor :first_name, :last_name
   
 
 end
