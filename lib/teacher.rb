@@ -7,6 +7,9 @@ class Teacher < User
   def initialize 
     super 
   end 
+  
+  def teach 
+  end 
 
   
 end
