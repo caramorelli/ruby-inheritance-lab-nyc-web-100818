@@ -11,7 +11,7 @@ class Student < User
   end 
   
   def learn(string)
-    self.knowledge << string
+    @knowledge << string
   end 
   
   
