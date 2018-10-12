@@ -1,5 +1,5 @@
 
-require_relative './lib/user'
+# require_relative './lib/user'
 
 class Student < User
   
